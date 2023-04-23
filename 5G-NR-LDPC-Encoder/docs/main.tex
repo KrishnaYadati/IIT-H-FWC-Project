@@ -1,4 +1,4 @@
-\documentclass[journal,5pt,twocolumn]{IEEEtran}
+\documentclass[journal,twocolumn]{IEEEtran}
 %
 \makeatletter
 \makeatother
@@ -236,5 +236,24 @@ The 5G NR encoder also includes other features such as rate matching and code bl
 
 Overall, the 5G NR encoder is a critical component of the communication system, and its performance impacts the reliability and efficiency of data transmission over 5G networks.
 
+\subsection{\textbf{
+5G-NR LDPC Channel coding}}
+Based on my interpretation from {\href{https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/17.01.00_60/ts_138212v170100p.pdf}{3GPP Specification 38.212} Rel 15 (Multiplexing and channel coding), I had put together the procedure on how LDPC Base Graph selection and coding happens.
+\begin{enumerate}
+  \item For transmission of a DL transport block , a transport block CRC is first appended to provide error detection, followed by a LDPC base graph selection.
+  \item   NR supports two LDPC base graphs, one for small transport blocks and one for larger transport blocks.
+   \item  Then transport block is segmented into code blocks and code block CRC attachment is performed.
+   \item  Each code block is individually LDPC encoded. The LDPC coded blocks are then individually rate matched.
+  \item   Finally, code block concatenation is performed to create a codeword for transmission. Up to 2 code words can be transmitted simultaneously. 
+    \end{enumerate}
+ \subsection{\textbf{
+LDPC Base Graphs}}   
+    There are two types of Base Graphs standardized in the specification, {\href{https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/17.01.00_60/ts_138212v170100p.pdf}{3GPP Specification 38.212} (Multiplexing and channel coding).Base Graph is a Matrix where each of the entries can be further expanded based on the expansion factor Zc.
+\begin{enumerate}
+  \item  Base Graph 1 (BG1) : With Matrix size 46X68 entries For Large Transport Block 
+  \includegraphics[width=\columnwidth]{../figs/bg1.png} 
 
+  \item  Base Graph 2 (BG2): With matrix size 42X52 entries For Smaller Transport Block
+  \includegraphics[width=\columnwidth]{../figs/bg2.png} 
+      \end{enumerate}
 \end{document}
