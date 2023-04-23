@@ -3,4 +3,8 @@
 
 ## Compilation :
 
-To compile .c files in linux use "gcc -o filename.c filename" 
+To compile .c files in linux use "gcc filename.c -o filename" 
+
+## Execution :
+
+To execute .c files in linux use "./filename" 
