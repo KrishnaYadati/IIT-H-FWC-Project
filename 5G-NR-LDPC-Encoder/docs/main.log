@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  24 APR 2023 00:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  24 APR 2023 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,111 +990,111 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 118.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 119.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-118.
+119.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 119.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-118.
+119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 119.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-118.
+119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 119.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-18.
+19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-18.
+19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <5> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <5> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <7> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <7> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 118.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 119.
 
 
 -- Lines per column: 58 (exact).
-LaTeX Info: Redefining \celsius on input line 118.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 118
+LaTeX Info: Redefining \celsius on input line 119.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 119
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 118.
-Package gensymb Info: Using \Omega for \ohm on input line 118.
+LaTeX Info: Redefining \ohm on input line 119.
+Package gensymb Info: Using \Omega for \ohm on input line 119.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1131,7 +1131,7 @@ Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring ON on input line 118.
+Package hyperref Info: Link coloring ON on input line 119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1144,9 +1144,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count330
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
+LaTeX Info: Redefining \ref on input line 119.
+LaTeX Info: Redefining \pageref on input line 119.
+LaTeX Info: Redefining \nameref on input line 119.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1202,21 +1202,16 @@ File: utxsyc.fd 2000/12/15 v3.1
 \openout5 = `main.toc'.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/sc' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/sc' tried instead on input line 216.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 219--220
-[]\OT1/txr/m/n/10 5G NR (New Ra-dio) uses Low-Density Parity-Check
- []
+(Font)              Font shape `OT1/txr/bx/sc' tried instead on input line 218.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 221--222
+[]\OT1/txr/m/n/10 5G NR (New Ra-dio) uses Low-Density Parity-Check
  []
 
 
@@ -1235,7 +1230,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
@@ -1254,86 +1249,218 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<../figs/bg1.png, id=46, 1269.74374pt x 628.3475pt>
+<../figs/bg1.png, id=50, 1269.74374pt x 628.3475pt>
 File: ../figs/bg1.png Graphic file (type png)
 <use ../figs/bg1.png>
-Package pdftex.def Info: ../figs/bg1.png  used on input line 254.
+Package pdftex.def Info: ../figs/bg1.png  used on input line 256.
 (pdftex.def)             Requested size: 252.0pt x 124.6989pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
-[]\OT1/txr/m/n/10 Base Graph 1 (BG1) : With Ma-trix size
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
-\OT1/txr/m/n/10 46X68 en-tries For Large Trans-port Block
- []
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 253--255
-[] 
- []
-
-<../figs/bg2.png, id=48, 982.67125pt x 629.35126pt>
+<../figs/bg2.png, id=52, 982.67125pt x 629.35126pt>
 File: ../figs/bg2.png Graphic file (type png)
 <use ../figs/bg2.png>
-Package pdftex.def Info: ../figs/bg2.png  used on input line 257.
+Package pdftex.def Info: ../figs/bg2.png  used on input line 261.
 (pdftex.def)             Requested size: 252.0pt x 161.38994pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
-[]\OT1/txr/m/n/10 Base Graph 2 (BG2): With ma-trix size
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
-\OT1/txr/m/n/10 42X52 en-tries For Smaller Trans-port Block
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 256--258
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+<../figs/bgs-sel.png, id=54, 1276.77pt x 722.7pt>
+File: ../figs/bgs-sel.png Graphic file (type png)
+<use ../figs/bgs-sel.png>
+Package pdftex.def Info: ../figs/bgs-sel.png  used on input line 279.
+(pdftex.def)             Requested size: 252.0pt x 142.6407pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 310--310
+[]|\OT1/txr/m/n/10 104| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 310--311
+[]|\OT1/txr/m/n/10 120| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 312--312
+[]|\OT1/txr/m/n/10 112| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 312--312
+[]|\OT1/txr/m/n/10 144| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 312--312
+[]|\OT1/txr/m/n/10 196| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 312--312
+[]|\OT1/txr/m/n/10 208| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 312--313
+[]|\OT1/txr/m/n/10 240| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 314--314
+[]|\OT1/txr/m/n/10 160| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 314--314
+[]|\OT1/txr/m/n/10 224| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 314--314
+[]|\OT1/txr/m/n/10 288| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 316--316
+[]|\OT1/txr/m/n/10 128| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 316--316
+[]|\OT1/txr/m/n/10 192| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 316--316
+[]|\OT1/txr/m/n/10 320| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 318--318
+[]|\OT1/txr/m/n/10 256| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 318--318
+[]|\OT1/txr/m/n/10 384| 
+ []
+
+
+Overfull \hbox (8.03722pt too wide) in paragraph at lines 298--321
 [] 
  []
 
-[2
+[2 <../figs/bg1.png> <../figs/bg2.png> <../figs/bgs-sel.png (PNG copy)>]
+[3
 
- <../figs/bg1.png> <../figs/bg2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F29AA17F285DBFB24422D57DEC93348;241.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+(rerunfilecheck)             Checksum: 5C5A2B8919702666995516CD5917A0CB;324.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
  )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 251 ({)
-### simple group (level 1) entered at line 241 ({)
+### simple group (level 2) entered at line 252 ({)
+### simple group (level 1) entered at line 243 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24757 strings out of 481239
- 472240 string characters out of 5920378
- 734109 words of memory out of 5000000
- 39489 multiletter control sequences out of 15000+600000
- 596270 words of font info for 152 fonts, out of 8000000 for 9000
+ 24787 strings out of 481239
+ 472627 string characters out of 5920378
+ 741111 words of memory out of 5000000
+ 39500 multiletter control sequences out of 15000+600000
+ 596510 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,6n,67p,446b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,67p,446b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 269534 bytes).
+xlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 338334 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
