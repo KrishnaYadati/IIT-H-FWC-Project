@@ -28,6 +28,7 @@
 %\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
 \usepackage{amsthm}
 \usepackage{mathrsfs}
+\usepackage{colortbl}
 \usepackage{txfonts}
 \usepackage{stfloats}
 \usepackage{cite}
@@ -297,11 +298,13 @@ For LDPC BG2:\\
     \end{enumerate}
  \item    Determine the base matrix expansion factor Zc by selecting the minimum Zc value in below Table, such that Kb*Zc $>=$K\\
 Sets of LDPC lifting size Zc in the specification I have populated below Zc table.\\
-     \begin{tabular} { | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} |   }
+\vspace{10mm}
+
+     \begin{tabular} { |>{\columncolor{red!35}} p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} |   }
        \hline
-    Zc & 2 &3 &5 &7 &9 &11 &13 &15\\
+      \rowcolor{orange!80}    \cellcolor{blue!30}Zc & 2 &3 &5 &7 &9 &11 &13 &15\\
     \hline
-    0 & 2 &3 &5 &7 &9 &11 &13 &15 \\
+     0 & 2 &3 &5 &7 &9 &11 &13 &15 \\
     \hline
    1 & 4 &6 &10 &14 &18 &22 &26 &30\\
    \hline
