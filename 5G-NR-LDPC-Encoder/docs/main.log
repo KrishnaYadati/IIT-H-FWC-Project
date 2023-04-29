@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  28 APR 2023 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  29 APR 2023 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1429,17 +1429,22 @@ Overfull \hbox (8.03722pt too wide) in paragraph at lines 303--326
 [][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
 [3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C5A2B8919702666995516CD5917A0CB;324.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
  )
 (\end occurred inside a group at level 2)
 
@@ -1447,9 +1452,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
 ### simple group (level 1) entered at line 244 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24829 strings out of 481239
- 473224 string characters out of 5920378
- 748437 words of memory out of 5000000
+ 24830 strings out of 481239
+ 473231 string characters out of 5920378
+ 749437 words of memory out of 5000000
  39540 multiletter control sequences out of 15000+600000
  596510 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1462,10 +1467,10 @@ type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 338842 bytes).
+Output written on main.pdf (3 pages, 339640 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
