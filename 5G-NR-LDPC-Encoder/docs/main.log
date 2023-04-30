@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  29 APR 2023 23:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  30 APR 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,101 +1350,111 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--298
  []
 
 [2 <../figs/bg1.png> <../figs/bg2.png> <../figs/bgs-sel.png (PNG copy)>]
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 313--313
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 318--318
 []|\OT1/txr/m/n/10 104| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 313--314
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 318--319
 []|\OT1/txr/m/n/10 120| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 315--315
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
 []|\OT1/txr/m/n/10 112| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 315--315
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
 []|\OT1/txr/m/n/10 144| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 315--315
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
 []|\OT1/txr/m/n/10 196| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 315--315
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
 []|\OT1/txr/m/n/10 208| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 315--316
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--321
 []|\OT1/txr/m/n/10 240| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 317--317
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 322--322
 []|\OT1/txr/m/n/10 160| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 317--317
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 322--322
 []|\OT1/txr/m/n/10 224| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 317--317
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 322--322
 []|\OT1/txr/m/n/10 288| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 319--319
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 324--324
 []|\OT1/txr/m/n/10 128| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 319--319
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 324--324
 []|\OT1/txr/m/n/10 192| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 319--319
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 324--324
 []|\OT1/txr/m/n/10 320| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 321--321
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 326--326
 []|\OT1/txr/m/n/10 256| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 321--321
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 326--326
 []|\OT1/txr/m/n/10 384| 
  []
 
 
-Overfull \hbox (8.03722pt too wide) in paragraph at lines 303--326
-[][] 
+Overfull \hbox (15.41713pt too wide) in paragraph at lines 305--330
+[]\OT1/txr/m/n/10 j  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
 [3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C5A2B8919702666995516CD5917A0CB;324.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  )
 (\end occurred inside a group at level 2)
 
@@ -1452,13 +1462,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
 ### simple group (level 1) entered at line 244 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24830 strings out of 481239
- 473231 string characters out of 5920378
- 749437 words of memory out of 5000000
- 39540 multiletter control sequences out of 15000+600000
+ 24833 strings out of 481239
+ 473266 string characters out of 5920378
+ 754437 words of memory out of 5000000
+ 39542 multiletter control sequences out of 15000+600000
  596510 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,9n,67p,446b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,67p,446b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf
@@ -1467,10 +1477,10 @@ type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 339640 bytes).
+Output written on main.pdf (3 pages, 340385 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
