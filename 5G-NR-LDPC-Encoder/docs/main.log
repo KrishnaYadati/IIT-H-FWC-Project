@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  30 APR 2023 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  30 APR 2023 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,111 +1350,145 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--298
  []
 
 [2 <../figs/bg1.png> <../figs/bg2.png> <../figs/bgs-sel.png (PNG copy)>]
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 318--318
+Overfull \hbox (2.0141pt too wide) in paragraph at lines 309--309
+[]|\OT1/txr/m/n/10 Zc| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 317--317
 []|\OT1/txr/m/n/10 104| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 318--319
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 317--318
 []|\OT1/txr/m/n/10 120| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 319--319
 []|\OT1/txr/m/n/10 112| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 319--319
 []|\OT1/txr/m/n/10 144| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 319--319
 []|\OT1/txr/m/n/10 196| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--320
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 319--319
 []|\OT1/txr/m/n/10 208| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 320--321
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 319--320
 []|\OT1/txr/m/n/10 240| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 322--322
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 321--321
 []|\OT1/txr/m/n/10 160| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 322--322
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 321--321
 []|\OT1/txr/m/n/10 224| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 322--322
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 321--321
 []|\OT1/txr/m/n/10 288| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 324--324
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 323--323
 []|\OT1/txr/m/n/10 128| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 324--324
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 323--323
 []|\OT1/txr/m/n/10 192| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 324--324
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 323--323
 []|\OT1/txr/m/n/10 320| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 326--326
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 325--325
 []|\OT1/txr/m/n/10 256| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 326--326
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 325--325
 []|\OT1/txr/m/n/10 384| 
  []
 
 
-Overfull \hbox (15.41713pt too wide) in paragraph at lines 305--330
-[]\OT1/txr/m/n/10 j  [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 305--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--360
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+Underfull \hbox (badness 10000) in paragraph at lines 336--359
 
  []
 
-[3
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+<../figs/hbgtab1.png, id=86, 1425.325pt x 670.505pt>
+File: ../figs/hbgtab1.png Graphic file (type png)
+<use ../figs/hbgtab1.png>
+Package pdftex.def Info: ../figs/hbgtab1.png  used on input line 368.
+(pdftex.def)             Requested size: 252.0pt x 118.53717pt.
+<../figs/hbgtab2.png, id=87, 1400.23125pt x 641.39626pt>
+File: ../figs/hbgtab2.png Graphic file (type png)
+<use ../figs/hbgtab2.png>
+Package pdftex.def Info: ../figs/hbgtab2.png  used on input line 373.
+(pdftex.def)             Requested size: 252.0pt x 115.42676pt.
+<../figs/selbgs.png, id=88, 950.55125pt x 441.65pt>
+File: ../figs/selbgs.png Graphic file (type png)
+<use ../figs/selbgs.png>
+Package pdftex.def Info: ../figs/selbgs.png  used on input line 379.
+(pdftex.def)             Requested size: 252.0pt x 117.08386pt.
+<../figs/mod.png, id=89, 2169.10374pt x 708.6475pt>
+File: ../figs/mod.png Graphic file (type png)
+<use ../figs/mod.png>
+Package pdftex.def Info: ../figs/mod.png  used on input line 384.
+(pdftex.def)             Requested size: 252.0pt x 82.31995pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--387
+
+ []
+
+[3 <../figs/hbgtab1.png (PNG copy)> <../figs/hbgtab2.png (PNG copy)> <../figs/s
+elbgs.png (PNG copy)> <../figs/mod.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C5A2B8919702666995516CD5917A0CB;324.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 390.
  )
 (\end occurred inside a group at level 2)
 
@@ -1462,13 +1496,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
 ### simple group (level 1) entered at line 244 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24833 strings out of 481239
- 473266 string characters out of 5920378
- 754437 words of memory out of 5000000
- 39542 multiletter control sequences out of 15000+600000
+ 25121 strings out of 481239
+ 475779 string characters out of 5920378
+ 777437 words of memory out of 5000000
+ 39821 multiletter control sequences out of 15000+600000
  596510 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,9n,67p,446b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,67p,446b,1230s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf
@@ -1477,10 +1511,10 @@ type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 340385 bytes).
+Output written on main.pdf (3 pages, 884756 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

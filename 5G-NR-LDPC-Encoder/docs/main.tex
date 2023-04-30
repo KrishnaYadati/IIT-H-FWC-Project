@@ -304,10 +304,9 @@ a\\
 \begin{centering}
 j
 \end{centering}
-     \begin{tabular} {|>{\columncolor{red!35}} p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} | p {0.5 cm} |  }
+     \begin{tabular} {|>{\columncolor{red!35}} p {0.3 cm} | p {0.4 cm} | p {0.4 cm} | p {0.4 cm} | p {0.4 cm} | p {0.4 cm} | p {0.4 cm} | p {0.4 cm} | p {0.4 cm} |  }
          \hline
-     
-      \rowcolor{orange!80}    \cellcolor{blue!30}Zc & 2 &3 &5 &7 &9 &11 &13 &15\\
+        \rowcolor{orange!80}    \cellcolor{blue!30}Zc & 2 &3 &5 &7 &9 &11 &13 &15\\
     \hline
      0 &\cellcolor{blue!30} 2 &\cellcolor{blue!30}3 &\cellcolor{blue!30}5 &\cellcolor{blue!30}7 &\cellcolor{blue!30}9 &\cellcolor{blue!30}11 &\cellcolor{blue!30}13 &\cellcolor{blue!30}15 \\
     \hline
@@ -326,7 +325,7 @@ j
      7 &\cellcolor{blue!30} 256 &\cellcolor{blue!30}384 &\cellcolor{blue!30} &\cellcolor{blue!30} &\cellcolor{blue!30} &\cellcolor{blue!30} & \cellcolor{blue!30}&\cellcolor{blue!30}\\
     \hline
     \end{tabular}\\
-    Zc=a*2\textsuperscript{j}
+    Zc=a*2\textsuperscript{j}\\
   
           
           
@@ -334,10 +333,10 @@ j
     \item       After Zc is determined, the corresponding shift coefficient matrix set need to be selected from below Table., Ref for this table is    {\href{https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/17.01.00_60/ts_138212v170100p.pdf}{3GPP Specification 38.212,5.3.2 }}\\
      \vspace{4mm}
      
-       \begin{tabular} {| p {2.1 cm} | p {4 cm} |  }
+       \begin{tabular} {| p {2.1 cm} | p {4 cm} |}
        \hline
   
-  \cellcolor{violet!40} Set Index(iLS)& \cellcolor{violet!40}Set of Lifting Sizes(Z)\\
+  \cellcolor{violet!40} Set Index(iLS)& \cellcolor{violet!40}Set of Lifting Sizes(Zc)\\
   \hline
   
   0&2,4,8,16,32,64,128,256\\
@@ -360,8 +359,32 @@ j
     
     Since Zc = 4, Set Index (iLS) "0" is considered.\\
     
-   \item      Determine the entries values in the base matrix based on the Zc,  Calculate the shifting coefficient value P(i,j) by the modular Z operation.  P(i,j)= f(Vi,j , z)= mod(Vi,j, z)
-          \end{enumerate} 
-          
+   \item      Determine the entries values in the base matrix based on the Zc,  Calculate the shifting coefficient value P(i,j) by the modular Zc operation. \\
+   \begin{lstlisting}
+    P(i,j)= f(Vi,j , Zc)= mod(Vi,j, Zc)
+    \end{lstlisting}
+    Referral tables to calculate P(i,j) are available in the specification {\href{https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/17.01.00_60/ts_138212v170100p.pdf}{3GPP Specification 38.212,5.3.2 }}\\
+  \begin{figure}[h]
+ \includegraphics[width=\columnwidth]{../figs/hbgtab1.png}    
+     \caption{LDPC base graph 1 (BG 1) and its parity check matrices}
+  \end{figure}\\
+  \vspace{14mm}
+    \begin{figure}[h]
+ \includegraphics[width=\columnwidth]{../figs/hbgtab2.png}    
+     \caption{LDPC base graph 2 (BG 2) and its parity check matrices}
+  \end{figure}\\
+For K=20 , Base Graph = 2, Zc= 4 and SetIndex  iLS = 0, from above Table LDPC base graph 2 Using the equation P(i,j) = f(Vi,j , z) = mod(Vi,j , z) all the possible base graph matrix entries with the shifting coefficient are determined.   \\
+Below I have illustrated how the Base Matrix entries P(i.j) are populated, I have considered only the first row for below illustration, like wise the full matrix is built.\\
+ \begin{figure}[h]
+ \includegraphics[width=\columnwidth]{../figs/selbgs.png}    
+     \caption{LDPC parity check matrix selection}
+  \end{figure}\\
+  From Step 3 and 4 Set Index iLS = 0 and Zc =4\\
+   \begin{figure}[h]
+ \includegraphics[width=\columnwidth]{../figs/mod.png}    
+     \caption{modulus operation}
+  \end{figure}\\
+            \end{enumerate} 
+      
       
 \end{document}
