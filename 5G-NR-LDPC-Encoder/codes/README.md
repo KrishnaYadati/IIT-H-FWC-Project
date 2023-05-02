@@ -1,5 +1,6 @@
 ## Description :
 "ldpcbasegrapgen.c" generates all the base graphs which are given in Base Graphs folder 
+
 "codewordgen.c" generates Encoded message (Codeword)
 
 ## Compilation :
