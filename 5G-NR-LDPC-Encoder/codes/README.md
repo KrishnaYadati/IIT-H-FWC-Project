@@ -7,6 +7,7 @@
 
 To compile .c files in linux use "gcc filename.c -o filename" 
 
+Before compiling codewordgen.c add all the base graph text files to the folder where codewordgen.c is located.
 ## Execution :
 
 To execute .c files in linux use "./filename" 
