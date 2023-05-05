@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  3 MAY 2023 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.7)  5 MAY 2023 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1264,12 +1264,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
 
 ]
-<../figs/bg1.png, id=50, 1269.74374pt x 628.3475pt>
+<../figs/bg1.png, id=55, 1269.74374pt x 628.3475pt>
 File: ../figs/bg1.png Graphic file (type png)
 <use ../figs/bg1.png>
 Package pdftex.def Info: ../figs/bg1.png  used on input line 257.
 (pdftex.def)             Requested size: 252.0pt x 124.6989pt.
-<../figs/bg2.png, id=52, 982.67125pt x 629.35126pt>
+<../figs/bg2.png, id=57, 982.67125pt x 629.35126pt>
 File: ../figs/bg2.png Graphic file (type png)
 <use ../figs/bg2.png>
 Package pdftex.def Info: ../figs/bg2.png  used on input line 262.
@@ -1299,7 +1299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-<../figs/bgs-sel.png, id=54, 1276.77pt x 722.7pt>
+<../figs/bgs-sel.png, id=59, 1276.77pt x 722.7pt>
 File: ../figs/bgs-sel.png Graphic file (type png)
 <use ../figs/bgs-sel.png>
 Package pdftex.def Info: ../figs/bgs-sel.png  used on input line 280.
@@ -1454,22 +1454,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
-<../figs/hbgtab1.png, id=86, 1425.325pt x 670.505pt>
+<../figs/hbgtab1.png, id=91, 1425.325pt x 670.505pt>
 File: ../figs/hbgtab1.png Graphic file (type png)
 <use ../figs/hbgtab1.png>
 Package pdftex.def Info: ../figs/hbgtab1.png  used on input line 368.
 (pdftex.def)             Requested size: 252.0pt x 118.53717pt.
-<../figs/hbgtab2.png, id=87, 1400.23125pt x 641.39626pt>
+<../figs/hbgtab2.png, id=92, 1400.23125pt x 641.39626pt>
 File: ../figs/hbgtab2.png Graphic file (type png)
 <use ../figs/hbgtab2.png>
 Package pdftex.def Info: ../figs/hbgtab2.png  used on input line 373.
 (pdftex.def)             Requested size: 252.0pt x 115.42676pt.
-<../figs/selbgs.png, id=88, 950.55125pt x 441.65pt>
+<../figs/selbgs.png, id=93, 950.55125pt x 441.65pt>
 File: ../figs/selbgs.png Graphic file (type png)
 <use ../figs/selbgs.png>
 Package pdftex.def Info: ../figs/selbgs.png  used on input line 379.
 (pdftex.def)             Requested size: 252.0pt x 117.08386pt.
-<../figs/mod.png, id=89, 2169.10374pt x 708.6475pt>
+<../figs/mod.png, id=94, 2169.10374pt x 708.6475pt>
 File: ../figs/mod.png Graphic file (type png)
 <use ../figs/mod.png>
 Package pdftex.def Info: ../figs/mod.png  used on input line 384.
@@ -1479,7 +1479,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 366--387
 
  []
 
-<../figs/pcm.png, id=90, 1460.45625pt x 1151.30125pt>
+<../figs/pcm.png, id=95, 1460.45625pt x 1151.30125pt>
 File: ../figs/pcm.png Graphic file (type png)
 <use ../figs/pcm.png>
 Package pdftex.def Info: ../figs/pcm.png  used on input line 392.
@@ -1503,17 +1503,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 406--407
+[]\OT1/txr/m/n/10 Then Zc should be mul-ti-plied with the orig-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 4
+08.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
 [4
 
  <../figs/pcm.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5C5A2B8919702666995516CD5917A0CB;324.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
+(rerunfilecheck)             Checksum: 58D585E358F57B41AF118C94DDA934C5;391.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 422.
  )
 (\end occurred inside a group at level 2)
 
@@ -1521,25 +1545,26 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
 ### simple group (level 1) entered at line 244 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25129 strings out of 481239
- 475902 string characters out of 5920378
+ 25170 strings out of 481239
+ 476446 string characters out of 5920378
  777437 words of memory out of 5000000
- 39826 multiletter control sequences out of 15000+600000
- 596510 words of font info for 153 fonts, out of 8000000 for 9000
+ 39854 multiletter control sequences out of 15000+600000
+ 597171 words of font info for 155 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,9n,67p,446b,1230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,67p,446b,1589s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 973381 bytes).
+type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 976044 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
