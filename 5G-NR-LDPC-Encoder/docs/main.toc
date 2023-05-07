@@ -3,4 +3,4 @@
 \contentsline {subsection}{\numberline {2.1}\textbf { 5G-NR LDPC Channel coding}}{1}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}\textbf {LDPC Base Graphs}}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}\textbf {LDPC Base Graph selection procedure}}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}\textbf {Encoding procedure}}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}\textbf {Encoding Algorithm}}{4}{subsection.2.4}%

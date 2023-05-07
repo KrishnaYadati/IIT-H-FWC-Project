@@ -400,23 +400,23 @@ Below I have illustrated how the Base Matrix entries P(i.j) are populated, I hav
       \vspace{2mm}  
 I have generated all the posible base graphs and are available in {\href{https://github.com/KrishnaYadati/IIT-H-FWC-Project/tree/main/5G-NR-LDPC-Encoder/Base_Graphs}{BaseGraphs}} section .\\
   
- \subsection{\textbf{Encoding procedure}}
+ \subsection{\textbf{Encoding Algorithm}}
   \begin{enumerate} 
- \item First step is to generate any random message of size equal to lifting size (Zc) which has obtained during the selection of base graph.\\
-  \item Then Zc should be multiplied with the original information bits i.e., difference between rows and columns for the selected base graph.\\
+ \item First step is to generate any random message of size equal to lifting size (Zc) which has obtained during the selection of base graph.Then Zc should be multiplied with the original information bits i.e., difference between rows and columns for the selected base graph.\\
   \begin{lstlisting}
   Zc * (Column Size-Row Size)
  \end{lstlisting}
  \vspace{5mm}
    \item After that generate the codeword.Which should be of size given below \\
   \begin{lstlisting}
-  Zc * (Column Size)
+  Zc * Column Size
  \end{lstlisting}
+ 
   \end{enumerate} 
  
  
  
             \end{enumerate} 
       
-      
+         
 \end{document}
