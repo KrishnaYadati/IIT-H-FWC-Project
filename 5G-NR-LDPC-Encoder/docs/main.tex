@@ -399,8 +399,10 @@ Below I have illustrated how the Base Matrix entries P(i.j) are populated, I hav
        \end{center}
       \vspace{2mm}  
 I have generated all the posible base graphs and are available in {\href{https://github.com/KrishnaYadati/IIT-H-FWC-Project/tree/main/5G-NR-LDPC-Encoder/Base_Graphs}{BaseGraphs}} section .\\
-  
+ 
  \subsection{\textbf{Encoding Algorithm}}
+ Let the codeword be\\
+C=[s$_{1}$,s$_{2}$,....s$_{k_b}$,p$_{b_1}$,p$_{b_2}$,p$_{b_3}$,p$_{b_4}$,p$_{c_1}$,p$_{c_2}$,.....,p$_{c_{m_{b}-4}}$]\\
   \begin{enumerate} 
  \item First step is to generate any random message of size equal to lifting size (Zc) which has obtained during the selection of base graph.Then Zc should be multiplied with the original information bits i.e., difference between rows and columns for the selected base graph.\\
   \begin{lstlisting}
@@ -413,9 +415,7 @@ I have generated all the posible base graphs and are available in {\href{https:/
  \end{lstlisting}
  
   \end{enumerate} 
- 
- 
- 
+
             \end{enumerate} 
       
          
