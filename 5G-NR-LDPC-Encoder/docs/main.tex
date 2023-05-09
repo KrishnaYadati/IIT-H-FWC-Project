@@ -402,7 +402,51 @@ I have generated all the posible base graphs and are available in {\href{https:/
  
  \subsection{\textbf{Encoding Algorithm}}
  Let the codeword be\\
+ 
 C=[s$_{1}$,s$_{2}$,....s$_{k_b}$,p$_{b_1}$,p$_{b_2}$,p$_{b_3}$,p$_{b_4}$,p$_{c_1}$,p$_{c_2}$,.....,p$_{c_{m_{b}-4}}$]\\
+
+where each element of C is a vector of length Zc. \\
+The following figure represents the structure of base graph.
+  \begin{figure}[h]
+ \includegraphics[width=\columnwidth]{../figs/H.png}    
+     \caption{Structure of Base-Garph}
+  \end{figure}\\
+
+  where\\
+  
+ A=
+$\begin{bmatrix}
+a_{1,1} & a_{1,2} & \ldots & a_{1,k_{b}}\\
+a_{2,1} & a_{2,2} & \ldots & a_{2,k_{b}}\\
+a_{3,1} & a_{3,2} & \ldots & a_{3,k_{b}}\\
+a_{4,1} & a_{4,2} & \ldots & a_{4,k_{b}}
+\end{bmatrix}$\\
+\vspace{5mm}
+
+C$_{1}$=
+$\begin{bmatrix}
+c_{1,1} & c_{1,2} & \ldots & c_{1,k_{b}}\\
+c_{2,1} & c_{2,2} & \ldots & c_{2,k_{b}}\\
+c_{3,1} & c_{3,2} & \ldots & c_{3,k_{b}}\\
+ \vdots & \vdots & \ddots & \vdots\\
+c_{m_{b}-4,1} & c_{m_{b}-4,2} & \ldots & c_{m_{b}-4,k_{b}}\\ 
+\end{bmatrix}$\\
+\vspace{5mm}
+
+C$_{2}$=
+$\begin{bmatrix}
+c_{1,k_{b}+1} & c_{1,k_{b}+2} &c_{1,k_{b}+3} & c_{1,k_{b}+4}\\
+c_{2,k_{b}+1} & c_{2,k_{b}+2} &c_{2,k_{b}+3} & c_{2,k_{b}+4}\\
+c_{3,k_{b}+1} & c_{3,k_{b}+2} &c_{3,k_{b}+3} & c_{3,k_{b}+4}\\
+ \vdots & \vdots & \vdots& \vdots\\
+c_{m_{b}-4,k_{b}+1} & c_{m_{b}-4,k_{b}+2} & c_{m_{b}-4,k_{b}+3} & c_{m_{b}-4,k_{b}+4}\\ 
+\end{bmatrix}$
+\vspace{5mm}
+
+%There are 2 types of $B \in {H_{BG1_B1},H_{BG1_B2},H_{BG2_B1},H_{BG2_B2}}$ in both BG1 and BG2. 
+  
+The encoding of LDPC codes is carried out as follows:\\
+ 
   \begin{enumerate} 
  \item First step is to generate any random message of size equal to lifting size (Zc) which has obtained during the selection of base graph.Then Zc should be multiplied with the original information bits i.e., difference between rows and columns for the selected base graph.\\
   \begin{lstlisting}
