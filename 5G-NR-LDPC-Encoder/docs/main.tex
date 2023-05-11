@@ -239,8 +239,7 @@ The 5G NR encoder also includes other features such as rate matching and code bl
 
 Overall, the 5G NR encoder is a critical component of the communication system, and its performance impacts the reliability and efficiency of data transmission over 5G networks.
 
-\subsection{\textbf{
-5G-NR LDPC Channel coding}}
+\subsection{\textbf{5G-NR LDPC Channel coding}}
 Based on my interpretation from {\href{https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/17.01.00_60/ts_138212v170100p.pdf}{3GPP Specification 38.212} Rel 15 (Multiplexing and channel coding), I had put together the procedure on how LDPC Base Graph selection and coding happens.
 \begin{enumerate}
   \item For transmission of a DL transport block , a transport block CRC is first appended to provide error detection, followed by a LDPC base graph selection.
@@ -263,6 +262,89 @@ Based on my interpretation from {\href{https://www.etsi.org/deliver/etsi_ts/1382
   \caption{High Level Visualization of fully Populated BG2 Matrix}
   \end{figure}
       \end{enumerate}
+      
+       \subsection{\textbf{Base Graph Structure}}
+The following figure represents the structure of base graph.
+\vspace{15mm}
+  \begin{figure}[h]
+ \includegraphics[width=\columnwidth]{../figs/H.png}    
+     \caption{Structure of Base-Garph}
+  \end{figure}\\
+\vspace{5mm}
+  where\\
+  
+ A=
+$\begin{bmatrix}
+a_{1,1} & a_{1,2} & \ldots & a_{1,k_{b}}\\
+a_{2,1} & a_{2,2} & \ldots & a_{2,k_{b}}\\
+a_{3,1} & a_{3,2} & \ldots & a_{3,k_{b}}\\
+a_{4,1} & a_{4,2} & \ldots & a_{4,k_{b}}
+\end{bmatrix}$\\
+\vspace{5mm}
+
+C$_{1}$=
+$\begin{bmatrix}
+c_{1,1} & c_{1,2} & \ldots & c_{1,k_{b}}\\
+c_{2,1} & c_{2,2} & \ldots & c_{2,k_{b}}\\
+c_{3,1} & c_{3,2} & \ldots & c_{3,k_{b}}\\
+ \vdots & \vdots & \ddots & \vdots\\
+c_{m_{b}-4,1} & c_{m_{b}-4,2} & \ldots & c_{m_{b}-4,k_{b}}\\ 
+\end{bmatrix}$\\
+\vspace{5mm}
+
+C$_{2}$=
+$\begin{bmatrix}
+c_{1,k_{b}+1} & c_{1,k_{b}+2} &c_{1,k_{b}+3} & c_{1,k_{b}+4}\\
+c_{2,k_{b}+1} & c_{2,k_{b}+2} &c_{2,k_{b}+3} & c_{2,k_{b}+4}\\
+c_{3,k_{b}+1} & c_{3,k_{b}+2} &c_{3,k_{b}+3} & c_{3,k_{b}+4}\\
+ \vdots & \vdots & \vdots& \vdots\\
+c_{m_{b}-4,k_{b}+1} & c_{m_{b}-4,k_{b}+2} & c_{m_{b}-4,k_{b}+3} & c_{m_{b}-4,k_{b}+4}\\ 
+\end{bmatrix}$
+\vspace{5mm}\\ 
+There are two types of B i.e.,
+
+$B \in \{H_{BG1\_B1}, H_{BG1\_B2}, H_{BG2\_B1}, H_{BG2\_B2}\}$ in both BG1 and BG2. \\ 
+
+ H$_{BG1\_B1}$=
+$\begin{bmatrix}
+1 & 0 & -1 & -1\\
+0 & 0 & 0 & -1\\
+-1 & -1 & 0 & 0\\
+1 & -1 & -1 & 0
+\end{bmatrix}$\\
+\vspace{5mm}
+
+ H$_{BG1\_B2}$=
+$\begin{bmatrix}
+0 & 0 & -1 & -1\\
+105 & 0 & 0 & -1\\
+-1 & -1 & 0 & 0\\
+0 & -1 & -1 & 0
+\end{bmatrix}$\\
+\vspace{5mm}\\
+ H$_{BG1\_B1}$ is for Zc set index iLS=(0,1,2,3,4,5,7), H$_{BG1_B2}$ is for iLS=(6).\\
+\vspace{5mm}\\
+ H$_{BG2\_B1}$=
+$\begin{bmatrix}
+0 & 0 & -1 & -1\\
+-1 & 0 & 0 & -1\\
+1 & -1 & 0 & 0\\
+0 & -1 & -1 & 0
+\end{bmatrix}$\\
+\vspace{5mm}
+
+ H$_{BG2\_B2}$=
+$\begin{bmatrix}
+1 & 0 & -1 & -1\\
+-1 & 0 & 0 & -1\\
+0 & -1 & 0 & 0\\
+1 & -1 & -1 & 0
+\end{bmatrix}$\\
+\vspace{5mm}\\ 
+  H$_{BG2\_B1}$ is for Zc set index iLS=(0,1,2,4,5,6), H$_{BG2_B2}$ is for iLS=(3,7).\\ 
+  \vspace{5mm}\\
+  
+
       
  \subsection{\textbf{LDPC Base Graph selection procedure}}   
    I have put together the following example of constructing the LDCP parity check matrix for a given information block size K and code rate R = K/N.\\
@@ -359,7 +441,8 @@ j
     
     Since Zc = 4, Set Index (iLS) "0" is considered.\\
     
-   \item      Determine the entries values in the base matrix based on the Zc,  Calculate the shifting coefficient value P(i,j) by the modular Zc operation. \\
+   \item      Determine the entries values in the base matrix based on the Zc,  Calculate the shifting coefficient value P(i,j) by the modular Zc operation. 
+   
    \begin{lstlisting}
     P(i,j)= f(Vi,j , Zc)= mod(Vi,j, Zc)
     \end{lstlisting}
@@ -368,7 +451,7 @@ j
  \includegraphics[width=\columnwidth]{../figs/hbgtab1.png}    
      \caption{LDPC base graph 1 (BG 1) and its parity check matrices}
   \end{figure}\\
-  \vspace{14mm}
+  \vspace{5mm}
     \begin{figure}[h]
  \includegraphics[width=\columnwidth]{../figs/hbgtab2.png}    
      \caption{LDPC base graph 2 (BG 2) and its parity check matrices}
@@ -387,7 +470,7 @@ Below I have illustrated how the Base Matrix entries P(i.j) are populated, I hav
   
   Using the above principal remaining all entries of the matrix can be populated based on the Row index i and Column Index j and SetIndex(iLS)\\
   I populated the below full base graph2 matrix with Zc=4\\
-  \vspace{20mm}
+  \vspace{5mm}
      \begin{figure}[h]
  \includegraphics[width=\columnwidth]{../figs/pcm.png}    
      \caption{Base Graph2 for iLS=0 and Zc=4}
@@ -400,92 +483,14 @@ Below I have illustrated how the Base Matrix entries P(i.j) are populated, I hav
       \vspace{2mm}  
 I have generated all the posible base graphs and are available in {\href{https://github.com/KrishnaYadati/IIT-H-FWC-Project/tree/main/5G-NR-LDPC-Encoder/Base_Graphs}{BaseGraphs}} section .\\
  
- \subsection{\textbf{Encoding Algorithm}}
- Let the codeword be\\
+ \subsection{\textbf{Encoding Algorithm}} 
+   Let the codeword be\\
  
 C=[s$_{1}$,s$_{2}$,....s$_{k_b}$,p$_{b_1}$,p$_{b_2}$,p$_{b_3}$,p$_{b_4}$,p$_{c_1}$,p$_{c_2}$,.....,p$_{c_{m_{b}-4}}$]\\
 
 where each element of C is a vector of length Zc. \\
-The following figure represents the structure of base graph.
-  \begin{figure}[h]
- \includegraphics[width=\columnwidth]{../figs/H.png}    
-     \caption{Structure of Base-Garph}
-  \end{figure}\\
-
-  where\\
-  
- A=
-$\begin{bmatrix}
-a_{1,1} & a_{1,2} & \ldots & a_{1,k_{b}}\\
-a_{2,1} & a_{2,2} & \ldots & a_{2,k_{b}}\\
-a_{3,1} & a_{3,2} & \ldots & a_{3,k_{b}}\\
-a_{4,1} & a_{4,2} & \ldots & a_{4,k_{b}}
-\end{bmatrix}$\\
-\vspace{5mm}
-
-C$_{1}$=
-$\begin{bmatrix}
-c_{1,1} & c_{1,2} & \ldots & c_{1,k_{b}}\\
-c_{2,1} & c_{2,2} & \ldots & c_{2,k_{b}}\\
-c_{3,1} & c_{3,2} & \ldots & c_{3,k_{b}}\\
- \vdots & \vdots & \ddots & \vdots\\
-c_{m_{b}-4,1} & c_{m_{b}-4,2} & \ldots & c_{m_{b}-4,k_{b}}\\ 
-\end{bmatrix}$\\
-\vspace{5mm}
-
-C$_{2}$=
-$\begin{bmatrix}
-c_{1,k_{b}+1} & c_{1,k_{b}+2} &c_{1,k_{b}+3} & c_{1,k_{b}+4}\\
-c_{2,k_{b}+1} & c_{2,k_{b}+2} &c_{2,k_{b}+3} & c_{2,k_{b}+4}\\
-c_{3,k_{b}+1} & c_{3,k_{b}+2} &c_{3,k_{b}+3} & c_{3,k_{b}+4}\\
- \vdots & \vdots & \vdots& \vdots\\
-c_{m_{b}-4,k_{b}+1} & c_{m_{b}-4,k_{b}+2} & c_{m_{b}-4,k_{b}+3} & c_{m_{b}-4,k_{b}+4}\\ 
-\end{bmatrix}$
-\vspace{5mm}\\ 
-There are two types of B i.e.,
-
-$B \in \{H_{BG1\_B1}, H_{BG1\_B2}, H_{BG2\_B1}, H_{BG2\_B2}\}$ in both BG1 and BG2. \\ 
-
- H$_{BG1\_B1}$=
-$\begin{bmatrix}
-1 & 0 & -1 & -1\\
-0 & 0 & 0 & -1\\
--1 & -1 & 0 & 0\\
-1 & -1 & -1 & 0
-\end{bmatrix}$\\
-\vspace{5mm}
-
- H$_{BG1\_B2}$=
-$\begin{bmatrix}
-0 & 0 & -1 & -1\\
-105 & 0 & 0 & -1\\
--1 & -1 & 0 & 0\\
-0 & -1 & -1 & 0
-\end{bmatrix}$\\
-\vspace{5mm}\\
- H$_{BG1\_B1}$ is for Zc set index iLS=(0,1,2,3,4,5,7), H$_{BG1_B2}$ is for iLS=(6).\\
-\vspace{5mm}\\
- H$_{BG2\_B1}$=
-$\begin{bmatrix}
-0 & 0 & -1 & -1\\
--1 & 0 & 0 & -1\\
-1 & -1 & 0 & 0\\
-0 & -1 & -1 & 0
-\end{bmatrix}$\\
-\vspace{5mm}
-
- H$_{BG2\_B2}$=
-$\begin{bmatrix}
-1 & 0 & -1 & -1\\
--1 & 0 & 0 & -1\\
-0 & -1 & 0 & 0\\
-1 & -1 & -1 & 0
-\end{bmatrix}$\\
-\vspace{5mm}\\ 
-  H$_{BG2\_B1}$ is for Zc set index iLS=(0,1,2,4,5,6), H$_{BG2_B2}$ is for iLS=(3,7).\\ 
-  \vspace{5mm}\\
-  
 The encoding of LDPC codes is carried out as follows:\\
+
  
   \begin{enumerate} 
  \item First step is to generate any random message of size equal to lifting size (Zc) which has obtained during the selection of base graph.Then Zc should be multiplied with the original information bits i.e., difference between rows and columns for the selected base graph.\\
